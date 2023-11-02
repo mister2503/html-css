@@ -1,0 +1,78 @@
+.b0
+{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box
+{
+   width: 40px;
+   height: 40px;
+   background-color: red;
+   position: relative;
+   transition: .2s;
+}
+
+.b1
+{
+   background-color: yellow;
+   transition: .30px;
+   animation: move 1.2s linear infinite;
+}
+
+@keyframes move
+{
+    0%
+    {
+      translate: -30px;
+    }
+
+    25%
+    {
+      translate: 0px;
+    }
+
+    50%
+    {
+      translate: 0 -30px;
+    }
+
+    75%
+    {
+      translate: -30px 30px;
+    }
+  }
+
+.b2
+{
+  translate: 0px;
+  animation: movel 1.2s linear infinite;
+}    
+
+@keyframes movel 
+{
+  0%
+  {
+    translate: 0px;
+  }
+
+  25%
+  {
+    translate: -30px;
+  }
+
+  50%
+  {
+    translate: -30px 30px;
+  }
+
+  75%
+  {
+    translate: 0px -30px;
+  }
+}

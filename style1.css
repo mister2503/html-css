@@ -1,0 +1,95 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    margin-top: 5%;
+    background-color: darkgreen;
+}
+.container-box
+{
+    background-color: lightgreen;
+    padding: 50px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.debit-card
+{
+    width: 80px;
+    height: 80px;
+}
+.visa
+{
+    width: 80px;
+    height: 80px
+}
+#card-number
+{
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 2px;
+}
+#card-cvv
+{
+    padding: 5px;
+}
+#card-exp
+{
+    padding: 5px;
+}
+#card-holder
+{
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 2px;
+}
+.last-elements
+{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+.brand
+{
+    text-align: center;
+}
+.form-elements
+{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+h3
+{
+    font-family: cursive,serif;letter-spacing: 1px;
+}
+label
+{
+    margin: 10px 0 10px 0;
+}
+input::-webkit-outer-spin-button
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;}
+    .btn
+{
+    background-color: black;
+    color: blue;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+    margin-top: 50px;
+    transition: 0.4s ease;
+}
+.btn:hover
+{
+    background-color: white;
+    color: black;
+}

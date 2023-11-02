@@ -1,0 +1,33 @@
+.week-list>li.active {
+    background: #fff;
+    color: #222831;
+    border-radius: 10px;
+}
+.week-list>li.Day-Name {
+    display: block;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+.week-list>li.Day-icon {
+    display: block;
+    height: 30px;
+    width: auto;
+    margin: 0px;
+} 
+.location-icon {
+    display: inline-block;
+    height: 0.8em;
+    width: auto;
+    margin-right: 5px;
+}
+.weather-container {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+}
+.weather-icon.feather {
+    height: 60px;
+    width: auto;
+}.weather-desc {
+    margin: 0;
+}
