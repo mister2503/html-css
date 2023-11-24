@@ -4,9 +4,7 @@
     justify-content: left;
     align-items: center;
     width: 100%;
-    height: 100%;
-    background-color: #808080;
-   
+    height: 100%;   
 }
 
 .wrapper {
@@ -17,7 +15,7 @@
     padding: 0;
     width: 100%;
     height: 50px;
-    background-color: #808080;
+    background-color: #1124ee
 }
 
 .brand {
@@ -43,7 +41,7 @@
     text-decoration: none;
 }
 body {
-    background: #eaeaea;
+    background-color: #5fe955;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -59,38 +57,41 @@ li {
     padding-top: 5%;
 }
 .img {
-    background-image: url("html/inter\ milan.png");
+    background-image: url(html/arema.png);
     background-color: #eaeaea;
     background-size: cover;
     border-radius: 100px;
     width: 150px;
     height: 150px;
     margin: 0 auto;
-    border: 1px solid #eaeaea;
+    border: 1px solid #1124ee;
 }
 h2 {
     text-align: center;
     font-size: 30px;
     margin: 0;
     font-weight: bold;
-    color: #808080;
+    color: #1124ee;
     padding-top: 3%;
 }
 .deskripsi {
     text-align: center;
     font-size: 15px;
     margin: 0;
-    color: #808080;
+    color: #1124ee;
     padding-top: 2%;
 }
 p {
     margin: 0 auto;
     padding-top: 20px;
+    width: 450;
     height: auto;
-    color: #eaeaea;
-    background: #808080;
+    color: #1124ee;
+    background: none;
 }
-
-
-
-
+.My-footer {
+    text-align: center;
+    background: #1124ee;
+    height: 8%;
+    color: #eaeaea;
+}

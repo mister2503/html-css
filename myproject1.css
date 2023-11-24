@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "poppins" , sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4%;
+    align-items: center;
+    position: fixed;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+}
+header .logo h3{
+    margin-left: -85px;
+}
+
+header button {
+    background-color: transparent;
+    border: 1px solid #f3572a;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.banner{
+    background-image: url(html/logo\ tim\ liga\ 1.webp);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #010b01;
+    color: #fff;
+}
