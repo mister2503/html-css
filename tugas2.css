@@ -21,6 +21,7 @@
 .brand {
     display: flex;
     flex-direction: row;
+    padding-left: 25px;
 }
 
 .navbar {
@@ -41,7 +42,6 @@
     text-decoration: none;
     padding-left: 30px;
     padding-right: 1px;
-
 }
 body {
     background-color: #E5DC1A;
